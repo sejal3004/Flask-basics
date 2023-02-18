@@ -1,1 +1,1 @@
-This repository contains the basics of flask.
+Basics of flask ..
