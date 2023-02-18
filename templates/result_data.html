@@ -1,0 +1,18 @@
+<html>  
+<head>  
+    <title>Result Data</title>  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>  
+<body>  
+    <h1>hi, results data </h1>  
+    <p> yo thanks for the registration . confirmation details are below</p>
+    <table border =1>
+        {% for key, value in result.items() %}
+        <tr>
+            <th>{{ key }}</th>
+            <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>  
+    </html>
